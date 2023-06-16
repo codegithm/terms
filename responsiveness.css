@@ -1,0 +1,37 @@
+@media screen and (max-width: 992px) {
+  .main-nav {
+    height: 54px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .nav-draw {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+  .logo {
+    width: 100px;
+    height: 36px;
+  }
+}
+@media screen and (max-width: 322px) {
+  .main-content-cont {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    margin-bottom: 20px;
+  }
+}
